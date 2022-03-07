@@ -1,0 +1,25 @@
+#! /bin/sh
+
+if [ $# -eq 0 ]
+  then
+    echo "No arguments supplied"
+elif [ $1 == "load" ]
+then
+  cd ~/Downloads
+  rm MyEBirdData*
+  ls -Art ebird_* | tail -n 1 | xargs -n1 unzip
+  cd /Users/richard/src/birding/birdinginvermont.com/
+  sed -i '' -e '$ d' public/project251.md && node src/ebird-ext/cli.js --input=/Users/richard/Downloads/MyEBirdData.csv getLastDate >> public/project251.md
+  echo "Changed date, but cannot add users manually."
+  echo "Awaiting more processing, do not close..."
+  atom public/project251.md
+  cd src/ebird-ext/
+  node cli.js 251 --input=/Users/richard/Downloads/MyEBirdData.csv
+elif [ $1 == "commit" ]
+then
+  cd /Users/richard/src/birding/birdinginvermont.com/src/ebird-ext
+  git ca -m '251'
+  cd /Users/richard/src/birding/birdinginvermont.com/
+  git ca -m '251'
+  git prec
+fi
