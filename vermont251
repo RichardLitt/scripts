@@ -1,5 +1,19 @@
 #! /bin/sh
 
+function git_dirty () {
+  git ls-files --others --error-unmatch . >/dev/null 2>&1; ec=$?
+  if test "$ec" = 0; then
+      echo some untracked files
+      exit 1
+  elif test "$ec" = 1; then
+      echo no untracked files
+  else
+      echo error from ls-files
+      exit 1
+  fi
+}
+
+
 if [ $# -eq 0 ]
   then
     echo "No arguments supplied"
@@ -9,6 +23,7 @@ then
   rm MyEBirdData*
   ls -Art ebird_* | tail -n 1 | xargs -n1 unzip
   cd /Users/richard/src/birding/birdinginvermont.com/
+  git_dirty # Haven't tested this yet
   sed -i '' -e '$ d' public/project251.md && node src/ebird-ext/cli.js --input=/Users/richard/Downloads/MyEBirdData.csv getLastDate >> public/project251.md
   echo "Changed date, but cannot add users manually."
   echo "Awaiting more processing, do not close..."
@@ -18,8 +33,8 @@ then
 elif [ $1 == "commit" ]
 then
   cd /Users/richard/src/birding/birdinginvermont.com/src/ebird-ext
-  git ca -m '251'
+  git ca -m 'chore: This is a Vermont251 related commit.'
   cd /Users/richard/src/birding/birdinginvermont.com/
-  git ca -m '251'
+  git ca -m 'chore: This is a Vermont251 related commit.'
   git prec
 fi
