@@ -7,7 +7,7 @@ open .
 # cp *.wav
 
 #cd /Volumes/Erebus/msgr-vesper-archive/
-cd /Users/richard/Sound/edinburgh-nocmig/Recordings
+cd /Users/richard/Sound/edinburgh-nocmig/
 open .
 conda activate vesper-d603294
 open http://127.0.0.1:8000/
