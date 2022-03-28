@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>Label</key>
+    <string>local.richard.friends</string>
+    <key>KeepAlive</key>
+    <false/>
+
+    <key>RunAtLoad</key>
+    <true/>
+
+    <key>UserName</key>
+    <string>richard</string>
+
+    <key>StandardErrorPath</key>
+    <string>/Users/richard/docs/friends/logs/stderr.log</string>
+
+    <key>StandardOutPath</key>
+    <string>/Users/richard/docs/friends/logs/stdout.log</string>
+
+    <key>ProgramArguments</key>
+    <array>
+      <string>/Library/Frameworks/Python.framework/Versions/3.7/bin/python3</string>
+      <string>/Users/richard/docs/friends/emailFriends.py</string>
+      <string>/Users/richard/docs/friends/friends-list.md</string>
+    </array>
+
+    <key>StartCalendarInterval</key>
+    <dict>
+      <key>Hour</key>
+      <integer>08</integer>
+      <key>Minute</key>
+      <integer>30</integer>
+
+    </dict>
+
+  </dict>
+</plist>
