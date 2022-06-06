@@ -27,7 +27,7 @@
 
     <key>ProgramArguments</key>
     <array>
-      <string>/Users/richard/src/scripts/findMontpelierHotspotNeedsToday.sh</string>
+      <string>/Users/richard/src/scripts/ebird-hotspots/findMontpelierHotspotNeedsToday.sh</string>
     </array>
 
     <key>StartCalendarInterval</key>

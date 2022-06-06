@@ -37,3 +37,7 @@ This helps me manage and import new checklists from the [251 Project](https://bi
 ### `vesper_open.sh`
 
 This helps me manage my nocturnal flight call recordings using [Vesper](https://github.com/HaroldMills/Vesper).
+
+### ebird-hotspots/
+
+This is used to send me an email every day with eBird hotspots I should go walk to and log birds in.

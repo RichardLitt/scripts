@@ -1,0 +1,52 @@
+FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.2587866&lng=-72.5740852&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailNeeds.py", line 34, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailNeeds.py", line 28, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.2587866&lng=-72.5740852&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailNeeds.py", line 34, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailNeeds.py", line 28, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
