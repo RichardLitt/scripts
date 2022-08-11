@@ -33,7 +33,8 @@ then
 elif [ $1 == "commit" ]
 then
   cd /Users/richard/src/birding/birdinginvermont.com/src/ebird-ext
-  git ca -m 'chore: This is a Vermont251 related commit.'
+  git add data/vt_town_counts.json
+  git commit -m 'chore: This is a Vermont251 related commit.'
   cd /Users/richard/src/birding/birdinginvermont.com/
   git ca -m 'chore: This is a Vermont251 related commit.'
   git prec
