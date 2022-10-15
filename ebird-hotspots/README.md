@@ -11,8 +11,9 @@ You need to make a list of only sightings from these hotspots, and then make a J
 3. Copy 10kmontpelierhotspotids.txt and getids.sh into that folder.
 4. Run `sh getids.sh`. This will make a 'montclean.txt' file.
 5. Move that to the `data` folder in ebird-ext/.
-6. Run `node shimeBirdData/readEBirdDb.js towns data/montclean.txt`. This will make a `results.json` file.
-7. Rename this to `montpelierhotspots.json`. This will add it to the .gitignore.
+6. Run `node shimeBirdData/readEBirdDb.js json data/montclean.txt`. This will make a `results.json` file. Note: This will exclude incidental checklists.
+7. Rename this to `montpelierhotspots.json`. This will add it to the .gitignore. Move it to `data/`.
+8. Rename `10kmontpelierhotspotids.txt` to JSON and move it to `data/`, too.
 7. Delete `data/montclean.txt`. You can also delete `getids.sh` and `10k...` in the eBird_Ext folder, if you want, but that doesn't matter much.
 
 ## Running the program
