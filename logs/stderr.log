@@ -1,0 +1,1176 @@
+internal/modules/cjs/loader.js:883
+  throw err;
+  ^
+
+Error: Cannot find module './montpelierhotspots.json'
+Require stack:
+- /Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js:3:25)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js'
+  ]
+}
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailNeeds.py", line 34, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailNeeds.py", line 28, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+internal/modules/cjs/loader.js:883
+  throw err;
+  ^
+
+Error: Cannot find module './montpelierhotspots.json'
+Require stack:
+- /Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js:3:25)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js'
+  ]
+}
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailNeeds.py", line 34, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailNeeds.py", line 28, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+internal/modules/cjs/loader.js:883
+  throw err;
+  ^
+
+Error: Cannot find module './montpelierhotspots.json'
+Require stack:
+- /Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js:3:25)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js'
+  ]
+}
+internal/modules/cjs/loader.js:883
+  throw err;
+  ^
+
+Error: Cannot find module './montpelierhotspots.json'
+Require stack:
+- /Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js:3:25)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js'
+  ]
+}
+internal/modules/cjs/loader.js:883
+  throw err;
+  ^
+
+Error: Cannot find module './montpelierhotspots.json'
+Require stack:
+- /Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js:3:25)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js'
+  ]
+}
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailNeeds.py", line 34, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailNeeds.py", line 28, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+internal/modules/cjs/loader.js:883
+  throw err;
+  ^
+
+Error: Cannot find module './montpelierhotspots.json'
+Require stack:
+- /Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js:3:25)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js'
+  ]
+}
+internal/modules/cjs/loader.js:883
+  throw err;
+  ^
+
+Error: Cannot find module './montpelierhotspots.json'
+Require stack:
+- /Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js:3:25)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js'
+  ]
+}
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailNeeds.py", line 34, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailNeeds.py", line 28, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+internal/modules/cjs/loader.js:883
+  throw err;
+  ^
+
+Error: Cannot find module './montpelierhotspots.json'
+Require stack:
+- /Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js:3:25)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js'
+  ]
+}
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailNeeds.py", line 34, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailNeeds.py", line 28, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+internal/modules/cjs/loader.js:883
+  throw err;
+  ^
+
+Error: Cannot find module './montpelierhotspots.json'
+Require stack:
+- /Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js:3:25)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js'
+  ]
+}
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailNeeds.py", line 34, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailNeeds.py", line 28, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+internal/modules/cjs/loader.js:883
+  throw err;
+  ^
+
+Error: Cannot find module './montpelierhotspots.json'
+Require stack:
+- /Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js:3:25)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js'
+  ]
+}
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailNeeds.py", line 34, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailNeeds.py", line 28, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+internal/modules/cjs/loader.js:883
+  throw err;
+  ^
+
+Error: Cannot find module './montpelierhotspots.json'
+Require stack:
+- /Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js:3:25)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js'
+  ]
+}
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailNeeds.py", line 34, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailNeeds.py", line 28, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+internal/modules/cjs/loader.js:883
+  throw err;
+  ^
+
+Error: Cannot find module './montpelierhotspots.json'
+Require stack:
+- /Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js:3:25)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js'
+  ]
+}
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailNeeds.py", line 34, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailNeeds.py", line 28, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+internal/modules/cjs/loader.js:883
+  throw err;
+  ^
+
+Error: Cannot find module './montpelierhotspots.json'
+Require stack:
+- /Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js:3:25)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js'
+  ]
+}
+internal/modules/cjs/loader.js:883
+  throw err;
+  ^
+
+Error: Cannot find module './montpelierhotspots.json'
+Require stack:
+- /Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js:3:25)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js'
+  ]
+}
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailNeeds.py", line 34, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailNeeds.py", line 28, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+internal/modules/cjs/loader.js:883
+  throw err;
+  ^
+
+Error: Cannot find module './montpelierhotspots.json'
+Require stack:
+- /Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js:3:25)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js'
+  ]
+}
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailNeeds.py", line 34, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailNeeds.py", line 28, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+internal/modules/cjs/loader.js:883
+  throw err;
+  ^
+
+Error: Cannot find module './montpelierhotspots.json'
+Require stack:
+- /Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js:3:25)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js'
+  ]
+}
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailNeeds.py", line 34, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailNeeds.py", line 28, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+internal/modules/cjs/loader.js:883
+  throw err;
+  ^
+
+Error: Cannot find module './montpelierhotspots.json'
+Require stack:
+- /Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js:3:25)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js'
+  ]
+}
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailNeeds.py", line 34, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailNeeds.py", line 28, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 728, in create_connection
+    raise err
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 716, in create_connection
+    sock.connect(sa)
+TimeoutError: [Errno 60] Operation timed out
+internal/modules/cjs/loader.js:883
+  throw err;
+  ^
+
+Error: Cannot find module './montpelierhotspots.json'
+Require stack:
+- /Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js:3:25)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js'
+  ]
+}
+internal/modules/cjs/loader.js:883
+  throw err;
+  ^
+
+Error: Cannot find module './montpelierhotspots.json'
+Require stack:
+- /Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js:3:25)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js'
+  ]
+}
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailNeeds.py", line 34, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailNeeds.py", line 28, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+internal/modules/cjs/loader.js:883
+  throw err;
+  ^
+
+Error: Cannot find module './montpelierhotspots.json'
+Require stack:
+- /Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js:3:25)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js'
+  ]
+}
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailNeeds.py", line 34, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailNeeds.py", line 28, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+internal/modules/cjs/loader.js:883
+  throw err;
+  ^
+
+Error: Cannot find module './montpelierhotspots.json'
+Require stack:
+- /Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js:3:25)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js'
+  ]
+}
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailNeeds.py", line 34, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailNeeds.py", line 28, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+internal/modules/cjs/loader.js:883
+  throw err;
+  ^
+
+Error: Cannot find module './montpelierhotspots.json'
+Require stack:
+- /Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js:3:25)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js'
+  ]
+}
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailNeeds.py", line 34, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailNeeds.py", line 28, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+internal/modules/cjs/loader.js:883
+  throw err;
+  ^
+
+Error: Cannot find module './montpelierhotspots.json'
+Require stack:
+- /Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js:3:25)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js'
+  ]
+}
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailNeeds.py", line 34, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailNeeds.py", line 28, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+internal/modules/cjs/loader.js:883
+  throw err;
+  ^
+
+Error: Cannot find module './montpelierhotspots.json'
+Require stack:
+- /Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js:3:25)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js'
+  ]
+}
+internal/modules/cjs/loader.js:883
+  throw err;
+  ^
+
+Error: Cannot find module './montpelierhotspots.json'
+Require stack:
+- /Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js:3:25)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js'
+  ]
+}
+internal/modules/cjs/loader.js:883
+  throw err;
+  ^
+
+Error: Cannot find module './montpelierhotspots.json'
+Require stack:
+- /Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js:3:25)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js'
+  ]
+}
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailNeeds.py", line 34, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailNeeds.py", line 28, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+internal/modules/cjs/loader.js:883
+  throw err;
+  ^
+
+Error: Cannot find module './montpelierhotspots.json'
+Require stack:
+- /Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js:3:25)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js'
+  ]
+}
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailNeeds.py", line 34, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailNeeds.py", line 28, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+internal/modules/cjs/loader.js:883
+  throw err;
+  ^
+
+Error: Cannot find module './montpelierhotspots.json'
+Require stack:
+- /Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js:3:25)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js'
+  ]
+}
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailNeeds.py", line 34, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailNeeds.py", line 28, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+internal/modules/cjs/loader.js:883
+  throw err;
+  ^
+
+Error: Cannot find module './montpelierhotspots.json'
+Require stack:
+- /Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js:3:25)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js'
+  ]
+}
+internal/modules/cjs/loader.js:883
+  throw err;
+  ^
+
+Error: Cannot find module './montpelierhotspots.json'
+Require stack:
+- /Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js:3:25)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js'
+  ]
+}
+internal/modules/cjs/loader.js:883
+  throw err;
+  ^
+
+Error: Cannot find module './montpelierhotspots.json'
+Require stack:
+- /Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js:3:25)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js'
+  ]
+}
+(node:371) UnhandledPromiseRejectionWarning: FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.2587866&lng=-72.5740852&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:371) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:371) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailNeeds.py", line 34, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailNeeds.py", line 28, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+(node:98459) UnhandledPromiseRejectionWarning: FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.2587866&lng=-72.5740852&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:98459) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:98459) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailNeeds.py", line 34, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailNeeds.py", line 28, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+(node:7622) UnhandledPromiseRejectionWarning: FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.2587866&lng=-72.5740852&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:7622) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:7622) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailNeeds.py", line 34, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailNeeds.py", line 28, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+(node:84521) UnhandledPromiseRejectionWarning: FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.2587866&lng=-72.5740852&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:84521) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:84521) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailNeeds.py", line 34, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailNeeds.py", line 28, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
