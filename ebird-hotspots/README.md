@@ -2,6 +2,12 @@
 
 So, this script is a bit finicky.
 
+## Getting the IDs for various hotspots
+
+You need to manually get these, for now. Do this by putting the coordinates in `montpelier.js`, and then adding the function that gets the local hotspots, and then ...
+
+... Got to be a better way to automatically get IDs from an area.
+
 ## Creating the data file for it to run
 
 You need to make a list of only sightings from these hotspots, and then make a JSON file out of those.
