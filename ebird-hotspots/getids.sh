@@ -4,11 +4,16 @@
 # Note: You also need the 10k ids file in that folder.
 # TODO Make it accessible from anywhere, or add an input to file.
 
-function makecleanfile(){
-  cat clean.txt | head -n1 > montclean.txt
+# $ sh getids.sh WilliamstownIds.txt
+
+IDS="$1"
+CLEANFILE="${1%.txt}-clean.txt"
+
+function makecleanfile() {
+  cat ebd_US-VT_relAug-2023_clean.txt | head -n1 > $CLEANFILE
   while read line; do
-    cat clean.txt | ag $line >> montclean.txt
-  done < 10kmontpelierhotspotids.txt
+    cat ebd_US-VT_relAug-2023_clean.txt | ag $line >> $CLEANFILE
+  done < $IDS
 }
 
 makecleanfile
