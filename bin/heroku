@@ -1,0 +1,3 @@
+#!/bin/bash
+
+../ebird-hotspots/findMontpelierHotspotNeedsToday.sh

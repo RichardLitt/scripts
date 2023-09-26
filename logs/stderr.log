@@ -1174,3 +1174,1824 @@ Traceback (most recent call last):
   File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
     for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
 socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+(node:72467) UnhandledPromiseRejectionWarning: FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.2587866&lng=-72.5740852&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:72467) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:72467) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailNeeds.py", line 36, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailNeeds.py", line 30, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+(node:72784) UnhandledPromiseRejectionWarning: FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.2587866&lng=-72.5740852&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:72784) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:72784) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailNeeds.py", line 36, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailNeeds.py", line 30, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+(node:8214) UnhandledPromiseRejectionWarning: FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.2587866&lng=-72.5740852&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:8214) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:8214) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailNeeds.py", line 36, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailNeeds.py", line 30, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+(node:64221) UnhandledPromiseRejectionWarning: FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.2587866&lng=-72.5740852&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:64221) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:64221) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailNeeds.py", line 36, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailNeeds.py", line 30, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+(node:75764) UnhandledPromiseRejectionWarning: FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.2587866&lng=-72.5740852&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:75764) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:75764) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailNeeds.py", line 36, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailNeeds.py", line 30, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+(node:75767) UnhandledPromiseRejectionWarning: FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.1341227&lng=-72.5339384&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:75767) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:75767) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailWilliamstownNeeds.py", line 36, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailWilliamstownNeeds.py", line 30, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+(node:14707) UnhandledPromiseRejectionWarning: FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.2587866&lng=-72.5740852&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:14707) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:14707) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailNeeds.py", line 36, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailNeeds.py", line 30, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+(node:14760) UnhandledPromiseRejectionWarning: FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.1341227&lng=-72.5339384&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:14760) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:14760) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailWilliamstownNeeds.py", line 36, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailWilliamstownNeeds.py", line 30, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+(node:316) UnhandledPromiseRejectionWarning: FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.2587866&lng=-72.5740852&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:316) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:316) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailNeeds.py", line 36, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailNeeds.py", line 30, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+(node:429) UnhandledPromiseRejectionWarning: FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.1341227&lng=-72.5339384&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:429) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:429) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailWilliamstownNeeds.py", line 36, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailWilliamstownNeeds.py", line 30, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+(node:20391) UnhandledPromiseRejectionWarning: FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.2587866&lng=-72.5740852&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:20391) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:20391) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailNeeds.py", line 36, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailNeeds.py", line 30, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+(node:20394) UnhandledPromiseRejectionWarning: FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.1341227&lng=-72.5339384&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:20394) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:20394) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailWilliamstownNeeds.py", line 36, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailWilliamstownNeeds.py", line 30, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+(node:312) UnhandledPromiseRejectionWarning: FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.2587866&lng=-72.5740852&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:312) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:312) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailNeeds.py", line 36, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailNeeds.py", line 30, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+(node:428) UnhandledPromiseRejectionWarning: FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.1341227&lng=-72.5339384&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:428) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:428) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailWilliamstownNeeds.py", line 36, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailWilliamstownNeeds.py", line 30, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+(node:2872) UnhandledPromiseRejectionWarning: FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.2587866&lng=-72.5740852&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:2872) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:2872) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailNeeds.py", line 36, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailNeeds.py", line 30, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+(node:2887) UnhandledPromiseRejectionWarning: FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.1341227&lng=-72.5339384&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:2887) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:2887) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailWilliamstownNeeds.py", line 36, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailWilliamstownNeeds.py", line 30, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+(node:20216) UnhandledPromiseRejectionWarning: FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.2587866&lng=-72.5740852&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:20216) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:20216) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailNeeds.py", line 36, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailNeeds.py", line 30, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+(node:20225) UnhandledPromiseRejectionWarning: FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.1341227&lng=-72.5339384&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:20225) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:20225) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailWilliamstownNeeds.py", line 36, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailWilliamstownNeeds.py", line 30, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+(node:7342) UnhandledPromiseRejectionWarning: FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.2587866&lng=-72.5740852&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:7342) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:7342) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailNeeds.py", line 36, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailNeeds.py", line 30, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+(node:7350) UnhandledPromiseRejectionWarning: FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.1341227&lng=-72.5339384&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:7350) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:7350) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailWilliamstownNeeds.py", line 36, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailWilliamstownNeeds.py", line 30, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+(node:9318) UnhandledPromiseRejectionWarning: FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.2587866&lng=-72.5740852&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:9318) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:9318) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailNeeds.py", line 36, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailNeeds.py", line 30, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+(node:9328) UnhandledPromiseRejectionWarning: FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.1341227&lng=-72.5339384&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:9328) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:9328) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailWilliamstownNeeds.py", line 36, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailWilliamstownNeeds.py", line 30, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+(node:17546) UnhandledPromiseRejectionWarning: FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.2587866&lng=-72.5740852&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:17546) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:17546) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailNeeds.py", line 36, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailNeeds.py", line 30, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+(node:17553) UnhandledPromiseRejectionWarning: FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.1341227&lng=-72.5339384&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:17553) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:17553) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailWilliamstownNeeds.py", line 36, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailWilliamstownNeeds.py", line 30, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+(node:18080) UnhandledPromiseRejectionWarning: FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.2587866&lng=-72.5740852&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:18080) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:18080) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailNeeds.py", line 36, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailNeeds.py", line 30, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+(node:18092) UnhandledPromiseRejectionWarning: FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.1341227&lng=-72.5339384&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:18092) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:18092) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailWilliamstownNeeds.py", line 36, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailWilliamstownNeeds.py", line 30, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+(node:32953) UnhandledPromiseRejectionWarning: FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.2587866&lng=-72.5740852&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:32953) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:32953) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailNeeds.py", line 36, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailNeeds.py", line 30, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+(node:33005) UnhandledPromiseRejectionWarning: FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.1341227&lng=-72.5339384&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:33005) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:33005) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailWilliamstownNeeds.py", line 36, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailWilliamstownNeeds.py", line 30, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+(node:41388) UnhandledPromiseRejectionWarning: FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.2587866&lng=-72.5740852&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:41388) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:41388) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailNeeds.py", line 36, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailNeeds.py", line 30, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+(node:41440) UnhandledPromiseRejectionWarning: FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.1341227&lng=-72.5339384&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:41440) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:41440) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailWilliamstownNeeds.py", line 36, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailWilliamstownNeeds.py", line 30, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+(node:15277) UnhandledPromiseRejectionWarning: FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.2587866&lng=-72.5740852&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:15277) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:15277) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailNeeds.py", line 36, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailNeeds.py", line 30, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+(node:15286) UnhandledPromiseRejectionWarning: FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.1341227&lng=-72.5339384&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:15286) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:15286) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailWilliamstownNeeds.py", line 36, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailWilliamstownNeeds.py", line 30, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+(node:314) UnhandledPromiseRejectionWarning: FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.2587866&lng=-72.5740852&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:314) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:314) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailNeeds.py", line 36, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailNeeds.py", line 30, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+(node:419) UnhandledPromiseRejectionWarning: FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.1341227&lng=-72.5339384&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:419) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:419) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailWilliamstownNeeds.py", line 36, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailWilliamstownNeeds.py", line 30, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+(node:3967) UnhandledPromiseRejectionWarning: FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.2587866&lng=-72.5740852&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:3967) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:3967) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailNeeds.py", line 36, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailNeeds.py", line 30, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+(node:3972) UnhandledPromiseRejectionWarning: FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.1341227&lng=-72.5339384&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:3972) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:3972) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailWilliamstownNeeds.py", line 36, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailWilliamstownNeeds.py", line 30, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+(node:25074) UnhandledPromiseRejectionWarning: FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.2587866&lng=-72.5740852&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:25074) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:25074) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailNeeds.py", line 36, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailNeeds.py", line 30, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+(node:25076) UnhandledPromiseRejectionWarning: FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.1341227&lng=-72.5339384&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:25076) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:25076) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailWilliamstownNeeds.py", line 36, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailWilliamstownNeeds.py", line 30, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+(node:47841) UnhandledPromiseRejectionWarning: FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.2587866&lng=-72.5740852&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:47841) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:47841) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailNeeds.py", line 36, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailNeeds.py", line 30, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+(node:47847) UnhandledPromiseRejectionWarning: FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.1341227&lng=-72.5339384&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:47847) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:47847) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailWilliamstownNeeds.py", line 36, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailWilliamstownNeeds.py", line 30, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+(node:62164) UnhandledPromiseRejectionWarning: FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.2587866&lng=-72.5740852&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:62164) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:62164) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailNeeds.py", line 36, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailNeeds.py", line 30, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+(node:62184) UnhandledPromiseRejectionWarning: FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.1341227&lng=-72.5339384&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:62184) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:62184) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailWilliamstownNeeds.py", line 36, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailWilliamstownNeeds.py", line 30, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+(node:46402) UnhandledPromiseRejectionWarning: FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.2587866&lng=-72.5740852&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:46402) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:46402) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailNeeds.py", line 36, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailNeeds.py", line 30, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+(node:46477) UnhandledPromiseRejectionWarning: FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.1341227&lng=-72.5339384&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:46477) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:46477) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailWilliamstownNeeds.py", line 36, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailWilliamstownNeeds.py", line 30, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+(node:75591) UnhandledPromiseRejectionWarning: FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.2587866&lng=-72.5740852&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:75591) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:75591) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailNeeds.py", line 36, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailNeeds.py", line 30, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+(node:75597) UnhandledPromiseRejectionWarning: FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.1341227&lng=-72.5339384&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:75597) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:75597) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailWilliamstownNeeds.py", line 36, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailWilliamstownNeeds.py", line 30, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+(node:78157) UnhandledPromiseRejectionWarning: FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.2587866&lng=-72.5740852&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:78157) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:78157) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailNeeds.py", line 36, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailNeeds.py", line 30, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+(node:78273) UnhandledPromiseRejectionWarning: FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.1341227&lng=-72.5339384&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:78273) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:78273) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailWilliamstownNeeds.py", line 36, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailWilliamstownNeeds.py", line 30, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+(node:3141) UnhandledPromiseRejectionWarning: FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.2587866&lng=-72.5740852&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:3141) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:3141) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailNeeds.py", line 36, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailNeeds.py", line 30, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+(node:369) UnhandledPromiseRejectionWarning: FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.2587866&lng=-72.5740852&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:369) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:369) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailNeeds.py", line 36, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailNeeds.py", line 30, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+(node:475) UnhandledPromiseRejectionWarning: FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.1341227&lng=-72.5339384&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:475) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:475) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailWilliamstownNeeds.py", line 36, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailWilliamstownNeeds.py", line 30, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+(node:29655) UnhandledPromiseRejectionWarning: FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.2587866&lng=-72.5740852&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:29655) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:29655) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:19740) UnhandledPromiseRejectionWarning: FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.2587866&lng=-72.5740852&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:19740) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:19740) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailNeeds.py", line 36, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailNeeds.py", line 30, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+(node:51186) UnhandledPromiseRejectionWarning: FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.2587866&lng=-72.5740852&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:51186) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:51186) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailNeeds.py", line 36, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailNeeds.py", line 30, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+(node:362) UnhandledPromiseRejectionWarning: FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.2587866&lng=-72.5740852&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:362) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:362) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailNeeds.py", line 36, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailNeeds.py", line 30, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+(node:442) UnhandledPromiseRejectionWarning: FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.1341227&lng=-72.5339384&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:442) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:442) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailWilliamstownNeeds.py", line 36, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailWilliamstownNeeds.py", line 30, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+(node:69673) UnhandledPromiseRejectionWarning: SyntaxError: Unexpected token p in JSON at position 4
+    at JSON.parse (<anonymous>)
+    at findMontpelierHotspotNeedsToday (/Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js:212:21)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:69673) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:69673) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:69745) UnhandledPromiseRejectionWarning: SyntaxError: Unexpected token p in JSON at position 4
+    at JSON.parse (<anonymous>)
+    at findMontpelierHotspotNeedsToday (/Users/richard/src/birding/birdinginvermont.com/src/ebird-ext/montpelier.js:212:21)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:69745) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:69745) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:98679) UnhandledPromiseRejectionWarning: FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.2587866&lng=-72.5740852&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:98679) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:98679) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailNeeds.py", line 36, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailNeeds.py", line 30, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+(node:98694) UnhandledPromiseRejectionWarning: FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.1341227&lng=-72.5339384&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:98694) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:98694) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailWilliamstownNeeds.py", line 36, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailWilliamstownNeeds.py", line 30, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+(node:98839) UnhandledPromiseRejectionWarning: FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.2587866&lng=-72.5740852&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:98839) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:98839) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailNeeds.py", line 36, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailNeeds.py", line 30, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+(node:98852) UnhandledPromiseRejectionWarning: FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.1341227&lng=-72.5339384&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:98852) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:98852) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailWilliamstownNeeds.py", line 36, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailWilliamstownNeeds.py", line 30, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+(node:99445) UnhandledPromiseRejectionWarning: FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.2587866&lng=-72.5740852&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:99445) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:99445) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailNeeds.py", line 36, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailNeeds.py", line 30, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+(node:99519) UnhandledPromiseRejectionWarning: FetchError: request to https://api.ebird.org/v2/ref/hotspot/geo?lat=44.1341227&lng=-72.5339384&dist=10&fmt=json failed, reason: getaddrinfo ENOTFOUND api.ebird.org
+    at ClientRequest.<anonymous> (/Users/richard/src/birding/birdinginvermont.com/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (events.js:315:20)
+    at TLSSocket.socketErrorListener (_http_client.js:469:9)
+    at TLSSocket.emit (events.js:315:20)
+    at emitErrorNT (internal/streams/destroy.js:106:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:99519) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:99519) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailWilliamstownNeeds.py", line 36, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailWilliamstownNeeds.py", line 30, in send_email
+    with smtplib.SMTP_SSL(smtp_server, PORT, context=context) as server:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1031, in __init__
+    source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 1037, in _get_socket
+    self.source_address)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 387, in getreply
+    line = self.file.readline(_MAXLINE + 1)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+ConnectionResetError: [Errno 54] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/richard/src/scripts/emailNeeds.py", line 36, in <module>
+    send_email(content)
+  File "/Users/richard/src/scripts/emailNeeds.py", line 31, in send_email
+    server.login(sender, password)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 694, in login
+    self.ehlo_or_helo_if_needed()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 600, in ehlo_or_helo_if_needed
+    if not (200 <= self.ehlo()[0] <= 299):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 441, in ehlo
+    (code, msg) = self.getreply()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 391, in getreply
+    + str(e))
+smtplib.SMTPServerDisconnected: Connection unexpectedly closed: [Errno 54] Connection reset by peer
