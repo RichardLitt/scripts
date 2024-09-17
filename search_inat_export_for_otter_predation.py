@@ -1,3 +1,9 @@
+# I used iNat to export all otter observations, including some fields about predation, and then I
+# went through and isolated those associations. this is not a massive text search like for Canada Jays.
+# Someone brought up this need, or something like it, on PacificBirds.
+# Just throwing it here for later.
+
+
 import pandas as pd
 
 # Read the CSV file
