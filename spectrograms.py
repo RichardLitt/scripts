@@ -15,7 +15,8 @@ file = '/Users/richard/Desktop/XC791969 - Identity unknown.wav' # specify file t
 
 fs, data = wavfile.read(file)
 
-# Clip the audio between specified time bounds (optional)
+# # Clip the audio between specified time bounds (optional)
+# # Generally, these lines below are edited.
 # start_time = 0.9
 # end_time = 1.05
 # data = data[int(fs*start_time):int(fs*end_time)]
@@ -33,6 +34,7 @@ f, t, Sxx = signal.stft(data, fs, window='hann', nfft=nfft, nperseg=nperseg,nove
 Sxx = np.abs(Sxx)**(4/7)
 
 # Do the plotting
+# Another line for editing
 dpi = 75 # Adjust as desired for image quality
 fig, ax = plt.subplots(figsize=(len(data)/fs*44,4.25),dpi=dpi) # Note figure size (adjustable)
 aspect = 2 # Controls length x width ratio for spectrogram
@@ -43,6 +45,7 @@ plt.xlabel('Time [ms]')
 # Set ticks and tick labels
 step = 0.05
 t_ticks = np.arange(0,dur+step,step)
+# This line also makes sense to edit - and the astype can sometimes be a float, not an int
 plt.xticks(t_ticks/dur*len(t),(t_ticks*1000).astype(int))
 f_max = f[np.where(f>10000)[0][0]] # Max frequency in visualized portion of spect
 f_ticks = [1000*i for i in range(11)]
